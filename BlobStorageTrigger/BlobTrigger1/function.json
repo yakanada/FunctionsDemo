@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "filterpdfs/{name}.pdf",
+      "connection": "demoforhttptrigger_STORAGE"
+    }
+  ]
+}
